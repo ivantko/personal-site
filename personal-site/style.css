@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #eae7f2; /* Lighter background */
+    /* Adding a subtle striped pattern to the background */
+    background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 5px, transparent 5px, transparent 10px);
+    color: #4a3a67; /* dark purple text */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #6a4fa5; /* deep purple header */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    background-color: #7d5cbf; /* purple navigation bar */
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s; /* smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: #4a3a67; /* darker purple on hover */
+}
+
+footer {
+    background-color: #6a4fa5;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+/* Classes for buttons */
+.btn {
+    background-color: #7d5cbf;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #6a4fa5;
+}
