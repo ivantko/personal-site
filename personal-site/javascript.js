@@ -1,1 +1,1 @@
-alert("popup test alert")
+console.log("simple console log test message")
